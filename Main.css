@@ -1,0 +1,59 @@
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background: radial-gradient(#3B1E54, #9B7EBD, #D4BEE4, #EEEEEE);
+}
+
+.myDiv{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#theLine {
+    margin: 2vw;
+    opacity: 1;
+    color: beige;
+    font-size: 30px;
+}
+
+#lucy{
+    border-radius: 50%;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+.char {
+    display: inline-block;
+    opacity: 0;
+    animation: slideIn 0.5s ease-in forwards;
+  }
+  
