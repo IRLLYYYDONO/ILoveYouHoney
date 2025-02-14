@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Lora:ital,wght@0,400..700;1,400..700&family=Pangolin&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+</head>
+<body>
+    <section class="first">
+        <div class="myDiv">
+            <img id="lucy" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGV2dnU0NXd0ZDE5a3hlMmoxbm9tOHFib29maHJra2dvNnFlbDN6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7n8unHgzfNvck/giphy.gif" alt="Description of GIF">
+            <p id="theLine"> Happy &nbsp Valantines &nbsp HoneyBun &nbsp ♥</p>
+            <div class="yesOrNo">
+                <button onclick="scrollToSection('paragraph')">Yes</button>
+                <button onclick="changeText()" id="no">No</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="paragraph" class="second">
+        <img src="images/IMG_20250209_190529_215.jpg">
+        <div class="text1" >
+            <h1>My Faviriote Picture!</h1>
+            <p>Our special night together, our monthaversiry, I hope it was special to you as much as it was to me.</p> 
+            <br>
+            <button onclick="scrollToSection('section3')" id="special">I love you, Honey!</button>
+        </div>
+    </section>
+
+    <section id="section3" class="third">
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
